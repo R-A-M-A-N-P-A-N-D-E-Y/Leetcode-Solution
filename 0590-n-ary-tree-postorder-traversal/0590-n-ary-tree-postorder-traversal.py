@@ -1,18 +1,21 @@
-"""
-# Definition for a Node.
-class Node:
-    def __init__(self, val=None, children=None):
-        self.val = val
-        self.children = children
-"""
+class Solution(object):
+    def postorder(self, root):
+        # If the root is None, return an empty list
+        if not root:
+            return []
 
-class Solution:
-    def postorder(self, root: 'Node') -> List[int]:
-        arr = []
-        def order(root):
-            if root is None: return None
-            for i in root.children:
-                order(i)    
-            arr.append(root.val)
-        order(root)
-        return arr
+        res = []
+
+        # Define the DFS function
+        def dfs(root):
+            # Recursively call dfs for each child of the current node
+            for x in root.children:
+                dfs(x)
+            # Append the value of the current node to the result list
+            res.append(root.val)
+
+        # Start DFS from the root
+        dfs(root)
+
+        # Return the result list containing node values in post-order
+        return res
