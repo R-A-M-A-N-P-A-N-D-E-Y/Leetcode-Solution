@@ -9,6 +9,7 @@
 | [0780-max-chunks-to-make-sorted](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0780-max-chunks-to-make-sorted) |
 | [0952-word-subsets](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0952-word-subsets) |
 | [1063-best-sightseeing-pair](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/1063-best-sightseeing-pair) |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1524-string-matching-in-an-array](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/1524-string-matching-in-an-array) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
@@ -37,6 +38,7 @@
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1917-maximum-average-pass-ratio](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/1917-maximum-average-pass-ratio) |
 | [2300-construct-string-with-repeat-limit](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/2300-construct-string-with-repeat-limit) |
 | [2868-continuous-subarrays](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/2868-continuous-subarrays) |
@@ -142,6 +144,7 @@
 |  |
 | ------- |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
@@ -166,6 +169,7 @@
 ## Graph
 |  |
 | ------- |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 ## Dynamic Programming
 |  |
@@ -213,4 +217,12 @@
 |  |
 | ------- |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/2533-bitwise-xor-of-all-pairings) |
+## Matrix
+|  |
+| ------- |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+## Shortest Path
+|  |
+| ------- |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 <!---LeetCode Topics End-->
