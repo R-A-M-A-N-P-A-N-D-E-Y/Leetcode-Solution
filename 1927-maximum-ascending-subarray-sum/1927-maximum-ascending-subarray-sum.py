@@ -1,15 +1,15 @@
 class Solution:
     def maxAscendingSum(self, nums: List[int]) -> int:
-        ans = max(nums)
-        i = 0
-        while i < len(nums):
-            if i + 1 < len(nums) and nums[i] < nums[i + 1]:
-                temp = nums[i]
-                while i + 1 < len(nums) and nums[i] < nums[i + 1]:
-                    temp += nums[i + 1]
-                    i += 1
-                ans = max(ans, temp)
+        result = 0
+        cur = nums[0]
+
+        for i in range(len(nums)-1):
+            
+            if nums[i] < nums[i+1]:
+                cur += nums[i+1]
             else:
-                i += 1
-        
-        return ans
+                result = max(cur, result)
+                cur = nums[i+1]
+
+
+        return max(cur, result)
