@@ -6,6 +6,7 @@
 | ------- |
 | [0368-largest-divisible-subset](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0368-largest-divisible-subset) |
 | [0407-trapping-rain-water-ii](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0407-trapping-rain-water-ii) |
+| [0416-partition-equal-subset-sum](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0494-target-sum) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0780-max-chunks-to-make-sorted](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0780-max-chunks-to-make-sorted) |
@@ -368,6 +369,7 @@
 |  |
 | ------- |
 | [0368-largest-divisible-subset](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0368-largest-divisible-subset) |
+| [0416-partition-equal-subset-sum](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0494-target-sum) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0905-length-of-longest-fibonacci-subsequence) |
