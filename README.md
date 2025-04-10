@@ -144,6 +144,7 @@
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [3001-apply-operations-to-maximize-score](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3001-apply-operations-to-maximize-score) |
 | [3227-find-missing-and-repeated-values](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3227-find-missing-and-repeated-values) |
+| [3243-count-the-number-of-powerful-integers](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Simulation
 |  |
@@ -215,6 +216,7 @@
 | [2465-shifting-letters-ii](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/2465-shifting-letters-ii) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/2691-count-vowel-strings-in-ranges) |
+| [3243-count-the-number-of-powerful-integers](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3447-clear-digits](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3447-clear-digits) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3455-minimum-length-of-string-after-operations) |
@@ -379,6 +381,7 @@
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [3243-count-the-number-of-powerful-integers](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3243-count-the-number-of-powerful-integers) |
 ## Backtracking
 |  |
 | ------- |
