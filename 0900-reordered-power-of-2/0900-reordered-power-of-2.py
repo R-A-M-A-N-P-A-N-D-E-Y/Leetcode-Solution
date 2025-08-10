@@ -1,13 +1,16 @@
 class Solution:
     def reorderedPowerOf2(self, n: int) -> bool:
-        signatures = [ # sorted powers
-            "1", "2", "4", "8", "16", "23", "46", "128", "256", "125",
-            "0124", "0248", "0469", "1289", "13468", "23678", "35566",
-            "011237", "122446", "224588", "0145678", "0122579", 
-            "0134449", "0368888", "11266777", "23334455", "01466788",
-            "112234778", "234455668", "012356789", "0112344778",
-            "1234446788", "2244667999", "2345588999"
-        ]
-        num = ''.join(sorted(str(n)))
-        return num in signatures
-        
+        prime = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
+
+        def get_sign(num):
+            sign = 1
+            while num > 0:
+                sign *= prime[num % 10]
+                num //= 10
+            return sign
+
+        target_sign = get_sign(n)
+        for i in range(31):
+            if get_sign(1 << i) == target_sign:
+                return True
+        return False
