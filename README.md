@@ -280,6 +280,7 @@
 ## Math
 |  |
 | ------- |
+| [0166-fraction-to-recurring-decimal](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0166-fraction-to-recurring-decimal) |
 | [0231-power-of-two](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0342-power-of-four) |
@@ -353,6 +354,7 @@
 | [0036-valid-sudoku](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0037-sudoku-solver) |
 | [0073-set-matrix-zeroes](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0073-set-matrix-zeroes) |
+| [0166-fraction-to-recurring-decimal](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0166-fraction-to-recurring-decimal) |
 | [0594-longest-harmonious-subsequence](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0594-longest-harmonious-subsequence) |
 | [0768-partition-labels](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0797-rabbits-in-forest) |
@@ -418,6 +420,7 @@
 | ------- |
 | [0038-count-and-say](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0038-count-and-say) |
 | [0165-compare-version-numbers](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0165-compare-version-numbers) |
+| [0166-fraction-to-recurring-decimal](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0166-fraction-to-recurring-decimal) |
 | [0768-partition-labels](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0768-partition-labels) |
 | [0868-push-dominoes](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0868-push-dominoes) |
 | [0952-word-subsets](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0952-word-subsets) |
