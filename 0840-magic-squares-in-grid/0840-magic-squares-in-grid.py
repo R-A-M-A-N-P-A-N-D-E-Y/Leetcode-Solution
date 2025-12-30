@@ -1,41 +1,48 @@
 class Solution:
+    def isMagic(self, grid: List[List[int]], r: int, c: int) -> bool:
+        # Step 1: Check Uniqueness and Range (1-9)
+        seen = [0] * 10
+        
+        for i in range(r, r + 3):
+            for j in range(c, c + 3):
+                val = grid[i][j]
+                if val < 1 or val > 9 or seen[val]:
+                    return False
+                seen[val] = 1
+        
+        # Step 2: Check Sums
+        # Row 1
+        if grid[r][c] + grid[r][c + 1] + grid[r][c + 2] != 15: return False
+        # Row 3
+        if grid[r + 2][c] + grid[r + 2][c + 1] + grid[r + 2][c + 2] != 15: return False
+        
+        # Col 1
+        if grid[r][c] + grid[r + 1][c] + grid[r + 2][c] != 15: return False
+        # Col 3
+        if grid[r][c + 2] + grid[r + 1][c + 2] + grid[r + 2][c + 2] != 15: return False
+        
+        # Diagonal 1
+        if grid[r][c] + grid[r + 1][c + 1] + grid[r + 2][c + 2] != 15: return False
+        # Diagonal 2
+        if grid[r + 2][c] + grid[r + 1][c + 1] + grid[r][c + 2] != 15: return False
+        
+        return True
+
     def numMagicSquaresInside(self, grid: List[List[int]]) -> int:
-        def isMagic(i, j):
-            once=[False]*10
-            rowSum=[0]*3
-            colSum= [0]*3
-
-            for a in range(i-1, i+2):
-                for b in range(j-1, j+2):
-                    x= grid[a][b]
-                    if x < 1 or x > 9: return False
-                    rowSum[a-i+1] += x
-                    colSum[b-j+1] += x
-                    if once[x]: 
-                        return False  # it's not unique
-                    once[x]=True
-
-            for b in once[1:]: 
-                if not b: return False
-
-            for sum in rowSum:
-                if sum!=15: return False
-            for sum in colSum:
-                if sum!=15: return False
-            
-            return grid[i-1][j-1]+grid[i+1][j+1]==10 and grid[i+1][j-1]+grid[i-1][j+1]==10
+        m, n = len(grid), len(grid[0])
         
-        r, c = len(grid), len(grid[0])
-        if r < 3 or c < 3: 
+        if m < 3 or n < 3:
             return 0
-
-        cnt=0
-        for i in range(1, r-1):
-            for j in range(1, c-1):
-                if grid[i][j] == 5 and isMagic(i, j): 
-                    cnt+=1
-        return cnt
-
-
-
-        
+            
+        count = 0
+        # Iterate up to m-3 (inclusive in loop logic, so range goes to m-2)
+        for i in range(m - 2):
+            for j in range(n - 2):
+                # Optimization: Center must be 5
+                if grid[i + 1][j + 1] != 5:
+                    continue
+                
+                if self.isMagic(grid, i, j):
+                    count += 1
+                    
+        return count
