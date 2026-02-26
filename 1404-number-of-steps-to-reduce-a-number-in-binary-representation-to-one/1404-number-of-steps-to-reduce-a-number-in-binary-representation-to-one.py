@@ -1,12 +1,13 @@
 class Solution:
     def numSteps(self, s: str) -> int:
-        steps = 0
-        carry = 0
-        n = len(s) - 1
-        for i in range(n, 0, -1):
-            if int(s[i]) + carry == 1:
-                carry = 1
-                steps += 2
+        n = int(s, 2)
+        res = 0
+
+        while n != 1:
+            res += 1
+            if n % 2 == 0:
+                n = n // 2
             else:
-                steps += 1
-        return steps + carry
+                n += 1
+        
+        return res
