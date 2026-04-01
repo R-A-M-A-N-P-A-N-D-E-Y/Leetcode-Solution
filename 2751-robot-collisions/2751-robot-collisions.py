@@ -1,30 +1,37 @@
 class Solution:
-    def survivedRobotsHealths(self, positions: List[int], healths: List[int], directions: str) -> List[int]:
+    def survivedRobotsHealths(self, positions, healths, directions):
+
         n = len(positions)
-        robots = [[positions[ind], healths[ind], directions[ind], ind] for ind in range(n)]
-        robots.sort()
+        order = sorted(range(n), key=lambda i: positions[i])
+
+        h = healths[:]
+        alive = [True]*n
         stack = []
 
-        for robot in robots:
-            if robot[2] == "R" or not stack or stack[-1][2] == "L":
-                stack.append(robot)
-                continue
+        for idx in order:
 
-            if robot[2] == "L":
-                add = True
-                while stack and stack[-1][2] == "R" and add:
-                    last_health = stack[-1][1]
-                    if robot[1] > last_health:
+            if directions[idx] == 'R':
+                stack.append(idx)
+
+            else:
+                while stack:
+
+                    top = stack[-1]
+
+                    if h[top] < h[idx]:
+                        alive[top] = False
                         stack.pop()
-                        robot[1] -= 1
-                    elif robot[1] < last_health:
-                        stack[-1][1] -= 1
-                        add = False
+                        h[idx] -= 1
+
+                    elif h[top] > h[idx]:
+                        alive[idx] = False
+                        h[top] -= 1
+                        break
+
                     else:
+                        alive[top] = False
+                        alive[idx] = False
                         stack.pop()
-                        add = False
+                        break
 
-                if add:
-                    stack.append(robot)
-
-        return [robot[1] for robot in sorted(stack, key=lambda robot: robot[3])]
+        return [h[i] for i in range(n) if alive[i]]
