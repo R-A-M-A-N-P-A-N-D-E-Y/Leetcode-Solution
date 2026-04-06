@@ -1,21 +1,37 @@
 class Solution:
-    def robotSim(self,commands,obstacles):
-        x,y,d=0,0,0
-        direction=[(0,1),(1,0),(0,-1),(-1,0)]
-        max_distance=0
-        obstacles=set(map(tuple,obstacles))
-        
+    def robotSim(self, commands, obstacles):
+        # Store obstacles
+        blocked = set()
+        for o in obstacles:
+            blocked.add((o[0], o[1]))
+
+        # Directions: North, East, South, West
+        directions = [
+            (0, 1), (1, 0), (0, -1), (-1, 0)
+        ]
+
+        x, y = 0, 0
+        dir = 0  # initially facing North
+        maxDist = 0
+
         for cmd in commands:
-            if cmd==-1:
-                d=(d+1)%4
-            elif cmd==-2:
-                d=(d-1)%4
+            if cmd == -1:
+                dir = (dir + 1) % 4  # turn right
+            elif cmd == -2:
+                dir = (dir + 3) % 4  # turn left
             else:
-                for _ in range(cmd):
-                    nx,ny=x+direction[d][0],y+direction[d][1]
-                    if (nx,ny) in obstacles:
+                while cmd > 0:
+                    nx = x + directions[dir][0]
+                    ny = y + directions[dir][1]
+
+                    # check obstacle
+                    if (nx, ny) in blocked:
                         break
-                    x,y=nx,ny
-                    max_distance=max(max_distance,x*x+y*y)
-        
-        return max_distance
+
+                    x = nx
+                    y = ny
+
+                    maxDist = max(maxDist, x * x + y * y)
+                    cmd -= 1
+
+        return maxDist
