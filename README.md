@@ -7,6 +7,7 @@
 | [0011-container-with-most-water](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0011-container-with-most-water) |
 | [0036-valid-sudoku](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0037-sudoku-solver) |
+| [0048-rotate-image](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0048-rotate-image) |
 | [0066-plus-one](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0073-set-matrix-zeroes) |
 | [0085-maximal-rectangle](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0085-maximal-rectangle) |
@@ -487,6 +488,7 @@
 ## Math
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0048-rotate-image) |
 | [0066-plus-one](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0066-plus-one) |
 | [0067-add-binary](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0067-add-binary) |
 | [0166-fraction-to-recurring-decimal](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0166-fraction-to-recurring-decimal) |
@@ -1425,6 +1427,7 @@
 | ------- |
 | [0036-valid-sudoku](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0037-sudoku-solver) |
+| [0048-rotate-image](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0073-set-matrix-zeroes) |
 | [0085-maximal-rectangle](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0085-maximal-rectangle) |
 | [0407-trapping-rain-water-ii](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/0407-trapping-rain-water-ii) |
