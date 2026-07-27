@@ -1,11 +1,3 @@
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
-        m1 = m2 = -1
-        for ele in nums:
-            if ele > m1:
-                m2 = m1
-                m1 = ele
-            elif ele > m2 and ele <= m1:
-                m2 = ele
-        
-        return (m1-1) * (m2-1)
+        return ((x:=sorted(nums)[-2:])[-1]-1)*(x[-2]-1) 
