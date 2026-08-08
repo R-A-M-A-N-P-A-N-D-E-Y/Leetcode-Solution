@@ -552,6 +552,7 @@
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
@@ -981,6 +982,7 @@
 | [3194-find-words-containing-character](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3194-find-words-containing-character) |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3243-count-the-number-of-powerful-integers) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3396-valid-word](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3396-valid-word) |
@@ -1496,6 +1498,7 @@
 | [3225-maximum-score-from-grid-operations](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3225-maximum-score-from-grid-operations) |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3243-count-the-number-of-powerful-integers) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
@@ -1846,6 +1849,7 @@
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/R-A-M-A-N-P-A-N-D-E-Y/Leetcode-Solution/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
