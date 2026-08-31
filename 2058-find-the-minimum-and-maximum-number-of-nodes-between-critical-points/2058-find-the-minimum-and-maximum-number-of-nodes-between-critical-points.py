@@ -1,32 +1,19 @@
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
 class Solution:
     def nodesBetweenCriticalPoints(self, head: Optional[ListNode]) -> List[int]:
-        if not head or not head.next or not head.next.next:
-            return [-1, -1]
+        def is_crit(x, y, z):
+            return (y.val - x.val) * (y.val - z.val) > 0
 
-        critical_points = []
-        prev = head
-        curr = head.next
-        position = 1
+        c = [0, 0]
+        Min, i = inf, 1
 
-        while curr.next:
-            if (curr.val > prev.val and curr.val > curr.next.val) or (curr.val < prev.val and curr.val < curr.next.val):
-                critical_points.append(position)
-            prev = curr
-            curr = curr.next
-            position += 1
+        prev, curr, nxt = head, head.next, head.next.next        
 
-        if len(critical_points) < 2:
-            return [-1, -1]
+        while nxt:
+            if is_crit(prev, curr, nxt):
+                if c[0]: Min = min(Min, i - c[c[1] > 0])
+                c[c[0] > 0] = i
 
-        min_distance = float('inf')
-        max_distance = critical_points[-1] - critical_points[0]
+            prev, curr, nxt = curr, nxt, nxt.next
+            i += 1
 
-        for i in range(1, len(critical_points)):
-            min_distance = min(min_distance, critical_points[i] - critical_points[i - 1])
-
-        return [min_distance, max_distance]
+        return [[Min, c[1] - c[0]], [-1, -1]][not c[1]]
