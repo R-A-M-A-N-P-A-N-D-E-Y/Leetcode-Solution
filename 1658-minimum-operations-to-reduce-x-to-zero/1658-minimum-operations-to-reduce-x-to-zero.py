@@ -1,18 +1,17 @@
 class Solution:
-    def minOperations(self, nums: List[int], x: int) -> int:
-        target, n = sum(nums) - x, len(nums)
+    def minOperations(self, A: List[int], x: int) -> int:
+        k = sum(A) - x
+        if k < 0: return -1 
+        best = -1
         
-        if target == 0:
-            return n
+        s = i = 0
         
-        max_len = cur_sum = left = 0
-        
-        for right, val in enumerate(nums):
-            cur_sum += val
-            while left <= right and cur_sum > target:
-                cur_sum -= nums[left]
-                left += 1
-            if cur_sum == target:
-                max_len = max(max_len, right - left + 1)
-        
-        return n - max_len if max_len else -1
+        for j, num in enumerate(A):
+            s += num
+            while s > k:
+                s -= A[i]
+                i += 1  
+            if s == k:
+                best = max(best, j - i + 1)
+
+        return -1 if best < 0 else len(A) - best
