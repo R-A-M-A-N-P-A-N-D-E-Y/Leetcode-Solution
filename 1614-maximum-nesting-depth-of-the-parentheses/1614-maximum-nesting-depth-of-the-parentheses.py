@@ -1,12 +1,16 @@
 class Solution:
-    def maxDepth(self, s: str) -> int:
-        count = 0
-        max_num = 0
-        for i in s:
-            if i == "(":
-                count += 1
-                if max_num < count:
-                    max_num = count
-            if i == ")":
-                count -= 1
-        return(max_num)
+    def maxDepth(self, s):
+        depth = 0
+        r = 0
+        for c in s:
+            if c == ')':
+                depth -= 1
+                continue
+            # Digits and operators
+            if c != '(':
+                continue
+            depth += 1
+            # New max only possible after '('
+            if depth > r:
+                r = depth
+        return r
